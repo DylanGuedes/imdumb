@@ -14,6 +14,7 @@ defmodule Imdumb do
     {:docker_running, "docker ps", "show all running docker images"},
     {:which_gestorpsi, "which virtualenvwrapper.sh", "activates virtualenv"},
     {:used_ports, "sudo netstat -nltp | grep 8000", "see ports being used"},
+    {:used_ports_extended, "sudo netstat -punt ", "see ports being used - extended"},
     {:escript, "mix escript.build", "compile script for elixir scripts"}
   ]
 

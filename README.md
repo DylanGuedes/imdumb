@@ -17,3 +17,26 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/imdumb](https://hexdocs.pm/imdumb).
 
+## Using
+1. Compile it:
+```
+mix escript.build
+```
+2. Move it to a binary folder:
+```
+move imdumb ~/.bin/.
+```
+3. Use with the --all flag:
+```
+imdumb --all
+```
+
+## ADDING NEW COMMANDS:
+
+1. Open "lib/imdumb.ex"
+2. Adds the new command in the `@cheatsheet` variable
+3. Recompile:
+```
+mix escript.build
+```
+4. Enjoy!
